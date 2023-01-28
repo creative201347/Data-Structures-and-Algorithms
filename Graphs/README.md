@@ -9,9 +9,7 @@ A **Connected graph** is a graph in which there is always a path from a vertex t
 A **Spanning tree** is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
 The edges may or may not have weights assigned to them. The total number of spanning trees with n vertices that can be created from a complete graph is equal to `n^(n-2)`. If we have `n = 4`, the maximum number of possible spanning trees is equal to 4^4-2 = 16. Thus, 16 spanning trees can be formed from a complete graph with 4 vertices.
 
-<img src="assets/undirected-graph.webp"  style="background-color:white">
-<img src="assets/connected-graph.webp"  style="background-color:white">
-<img src="assets/spanning-tree-1_0.webp"  style="background-color:white">
+![](assets/Graph%20types.gif)
 
 ---
 Graphs are used to solve many real-life problems. Graphs are used to represent networks. The networks may include paths in a city or telephone network or circuit network. Graphs are also used in social networks like linkedIn, Facebook. For example, in Facebook, each person is represented with a vertex(or node). Each node is a structure and contains information like person id, name, gender, locale etc.
@@ -40,12 +38,7 @@ Depth first Search or Depth first traversal is a recursive algorithm for searchi
 - Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top of the stack.
 - Keep repeating steps 2 and 3 until the stack is empty.
   
-<img src="assets/traversing/graph-dfs-step-0.webp" style="background-color:white">
-<img src="assets/traversing/graph-dfs-step-1.webp" style="background-color:white">
-<img src="assets/traversing/graph-dfs-step-2.webp" style="background-color:white">
-<img src="assets/traversing/graph-dfs-step-3.webp" style="background-color:white">
-<img src="assets/traversing/graph-dfs-step-4.webp" style="background-color:white">
-<img src="assets/traversing/graph-dfs-step-5.webp" style="background-color:white">
+![Depth First Search](assets/Depth%20First%20Search.gif)
 
 ---
 [**Breadth First Search**](https://www.programiz.com/dsa/graph-bfs)<br />
@@ -56,10 +49,5 @@ Traversal means visiting all the nodes of a graph. Breadth First Traversal or Br
 - Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back of the queue.
 - Keep repeating steps 2 and 3 until the queue is empty.
   
-<img src="assets/traversing/graph-bfs-step-0.webp" style="background-color:white">
-<img src="assets/traversing/graph-bfs-step-1.webp" style="background-color:white">
-<img src="assets/traversing/graph-bfs-step-2_2.webp" style="background-color:white">
-<img src="assets/traversing/graph-bfs-step-3.webp" style="background-color:white">
-<img src="assets/traversing/graph-bfs-step-4.webp" style="background-color:white">
-<img src="assets/traversing/graph-bfs-step-5.webp" style="background-color:white">
+![Breadth First Search](assets/Breadth%20First%20Search.gif)
 

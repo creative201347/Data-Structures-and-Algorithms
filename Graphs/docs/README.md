@@ -6,7 +6,7 @@ A **greedy algorithm** is an approach for solving a problem by selecting the bes
 
 Djikstra used this property in the opposite direction i.e we overestimate the distance of each vertex from the starting vertex. Then we visit each node and its neighbors to find the shortest subpath to those neighbors. The algorithm uses a greedy approach in the sense that we find the next best solution hoping that the end result is the best solution for the whole problem. Time Complexity: `O(E Log V)` where, `E` is the number of edges and `V` is the number of vertices. Space Complexity: `O(V)`
 
-<img src="../assets/algorithms/shortest-subpath.webp"  style="background-color:white">
+<img src="../assets/shortest-subpath.webp"  style="background-color:white">
 
 ---
 - The very first step is to mark all nodes as unvisited, mark the picked starting node with a current distance of `0` and the rest nodes with `infinity`, Now, fix the starting node as the current node.
@@ -14,14 +14,7 @@ Djikstra used this property in the opposite direction i.e we overestimate the di
 - After that, consider all of the unvisited neighbours of the current node, mark the current node as visited,
 - Choose the unvisited node that is marked with the **least distance**, fix it as the new current node, and repeat the process again. 
 
-<img src="../assets/algorithms/dj-1.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-2.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-3.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-4.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-5.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-6.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-7.webp"  style="background-color:white">
-<img src="../assets/algorithms/dj-8.webp"  style="background-color:white">
+![Dijkstra's Algorithm](../assets/Dijkstra's%20Algorithm.gif)
 
 ---
 ## [Kruskal's Algorithm](https://www.programiz.com/dsa/kruskal-algorithm)
@@ -32,12 +25,7 @@ It falls under a class of algorithms called **greedy algorithms** that find the 
 - Take the edge with the lowest weight and add it to the spanning tree. If adding the edge created a cycle, then reject this edge.
 - Keep adding edges until we reach all vertices.
 
-<img src="../assets/algorithms/ka-1.webp"  style="background-color:white">
-<img src="../assets/algorithms/ka-2.webp"  style="background-color:white">
-<img src="../assets/algorithms/ka-3.webp"  style="background-color:white">
-<img src="../assets/algorithms/ka-4.webp"  style="background-color:white">
-<img src="../assets/algorithms/ka-5.webp"  style="background-color:white">
-<img src="../assets/algorithms/ka-6.webp"  style="background-color:white">
+![Kruskal's Algorithm](../assets/Kruskal's%20Algorithm.gif)
 
 ---
 ## [Prim's Algorithm](https://www.programiz.com/dsa/prim-algorithm)
@@ -48,9 +36,4 @@ It falls under a class of algorithms called **greedy algorithms** that find the 
 - Find all the edges that connect the tree to new vertices, find the minimum and add it to the tree
 - Keep repeating step 2 until we get a minimum spanning tree
   
-<img src="../assets/algorithms/pa_1.webp"  style="background-color:white">
-<img src="../assets/algorithms/pa_2.webp"  style="background-color:white">
-<img src="../assets/algorithms/pa_3.webp"  style="background-color:white">
-<img src="../assets/algorithms/pa_4.webp"  style="background-color:white">
-<img src="../assets/algorithms/pa_5.webp"  style="background-color:white">
-<img src="../assets/algorithms/pa_6.webp"  style="background-color:white">
+![Prim's Algorithm](../assets/Prim's%20Algorithm.gif)
