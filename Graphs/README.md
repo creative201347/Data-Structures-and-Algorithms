@@ -14,7 +14,7 @@ The edges may or may not have weights assigned to them. The total number of span
 ---
 Graphs are used to solve many real-life problems. Graphs are used to represent networks. The networks may include paths in a city or telephone network or circuit network. Graphs are also used in social networks like linkedIn, Facebook. For example, in Facebook, each person is represented with a vertex(or node). Each node is a structure and contains information like person id, name, gender, locale etc.
 
-<img src="assets/facebook-graph.webp" style="background-color:white">
+![Facebook Graph](assets/Facebook.gif)
 
 ***A graph data structure is a collection of nodes that have data and are connected to other nodes.*** Let's try to understand this through an example. On facebook, everything is a node. That includes User, Photo, Album, Event, Group, Page, Comment, Story, Video, Link, Note...anything that has data is a node.
 Every relationship is an edge from one node to another. Whether you post a photo, join a group, like a page, etc., a new edge is created for that relationship. All of facebook is then a collection of these nodes and edges. This is because facebook uses a graph data structure to store its data.
@@ -26,8 +26,7 @@ Every relationship is an edge from one node to another. Whether you post a photo
 If the value of any element `a[i][j]` is 1, it represents that there is an edge connecting vertex i and vertex j. **Adjacency List** represents a graph as an array of linked lists.
 The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
 
-<img src="assets/adjacency-matrix_1.webp" style="background-color:white">
-<img src="assets/adjacency-list.webp"  style="background-color:white">
+![Graph Representation](assets/Graph%20Representation.gif)
 
 ---
 [**Depth First Search**](https://www.programiz.com/dsa/graph-dfs)<br />

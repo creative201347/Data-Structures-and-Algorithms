@@ -6,7 +6,7 @@ A **greedy algorithm** is an approach for solving a problem by selecting the bes
 
 Djikstra used this property in the opposite direction i.e we overestimate the distance of each vertex from the starting vertex. Then we visit each node and its neighbors to find the shortest subpath to those neighbors. The algorithm uses a greedy approach in the sense that we find the next best solution hoping that the end result is the best solution for the whole problem. Time Complexity: `O(E Log V)` where, `E` is the number of edges and `V` is the number of vertices. Space Complexity: `O(V)`
 
-<img src="../assets/shortest-subpath.webp"  style="background-color:white">
+![Shortest Subpath](../assets/Shortest%20subpath.gif)
 
 ---
 - The very first step is to mark all nodes as unvisited, mark the picked starting node with a current distance of `0` and the rest nodes with `infinity`, Now, fix the starting node as the current node.
