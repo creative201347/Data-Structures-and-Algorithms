@@ -9,14 +9,14 @@ A **Connected graph** is a graph in which there is always a path from a vertex t
 A **Spanning tree** is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
 The edges may or may not have weights assigned to them. The total number of spanning trees with n vertices that can be created from a complete graph is equal to `n^(n-2)`. If we have `n = 4`, the maximum number of possible spanning trees is equal to 4^4-2 = 16. Thus, 16 spanning trees can be formed from a complete graph with 4 vertices.
 
-<img src="assets/undirected-graph.webp" width="30%" style="background:white">
-<img src="assets/connected-graph.webp" width="30%" style="background:white">
-<img src="assets/spanning-tree-1_0.webp" width="30%" style="background:white">
+<img src="assets/undirected-graph.webp"  style="background-color:white">
+<img src="assets/connected-graph.webp"  style="background-color:white">
+<img src="assets/spanning-tree-1_0.webp"  style="background-color:white">
 
 ---
 Graphs are used to solve many real-life problems. Graphs are used to represent networks. The networks may include paths in a city or telephone network or circuit network. Graphs are also used in social networks like linkedIn, Facebook. For example, in Facebook, each person is represented with a vertex(or node). Each node is a structure and contains information like person id, name, gender, locale etc.
 
-<img src="assets/facebook-graph.webp" style="background:white">
+<img src="assets/facebook-graph.webp" style="background-color:white">
 
 ***A graph data structure is a collection of nodes that have data and are connected to other nodes.*** Let's try to understand this through an example. On facebook, everything is a node. That includes User, Photo, Album, Event, Group, Page, Comment, Story, Video, Link, Note...anything that has data is a node.
 Every relationship is an edge from one node to another. Whether you post a photo, join a group, like a page, etc., a new edge is created for that relationship. All of facebook is then a collection of these nodes and edges. This is because facebook uses a graph data structure to store its data.
@@ -28,8 +28,8 @@ Every relationship is an edge from one node to another. Whether you post a photo
 If the value of any element `a[i][j]` is 1, it represents that there is an edge connecting vertex i and vertex j. **Adjacency List** represents a graph as an array of linked lists.
 The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
 
-<img src="assets/adjacency-matrix_1.webp" width="48%" style="background:white">
-<img src="assets/adjacency-list.webp" width="48%" style="background:white">
+<img src="assets/adjacency-matrix_1.webp" style="background-color:white">
+<img src="assets/adjacency-list.webp"  style="background-color:white">
 
 ---
 [**Depth First Search**](https://www.programiz.com/dsa/graph-dfs)<br />
@@ -40,12 +40,12 @@ Depth first Search or Depth first traversal is a recursive algorithm for searchi
 - Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top of the stack.
 - Keep repeating steps 2 and 3 until the stack is empty.
   
-<img src="assets/traversing/graph-dfs-step-0.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-dfs-step-1.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-dfs-step-2.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-dfs-step-3.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-dfs-step-4.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-dfs-step-5.webp" width="32%" style="background:white">
+<img src="assets/traversing/graph-dfs-step-0.webp" style="background-color:white">
+<img src="assets/traversing/graph-dfs-step-1.webp" style="background-color:white">
+<img src="assets/traversing/graph-dfs-step-2.webp" style="background-color:white">
+<img src="assets/traversing/graph-dfs-step-3.webp" style="background-color:white">
+<img src="assets/traversing/graph-dfs-step-4.webp" style="background-color:white">
+<img src="assets/traversing/graph-dfs-step-5.webp" style="background-color:white">
 
 ---
 [**Breadth First Search**](https://www.programiz.com/dsa/graph-bfs)<br />
@@ -56,10 +56,10 @@ Traversal means visiting all the nodes of a graph. Breadth First Traversal or Br
 - Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back of the queue.
 - Keep repeating steps 2 and 3 until the queue is empty.
   
-<img src="assets/traversing/graph-bfs-step-0.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-bfs-step-1.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-bfs-step-2_2.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-bfs-step-3.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-bfs-step-4.webp" width="32%" style="background:white">
-<img src="assets/traversing/graph-bfs-step-5.webp" width="32%" style="background:white">
+<img src="assets/traversing/graph-bfs-step-0.webp" style="background-color:white">
+<img src="assets/traversing/graph-bfs-step-1.webp" style="background-color:white">
+<img src="assets/traversing/graph-bfs-step-2_2.webp" style="background-color:white">
+<img src="assets/traversing/graph-bfs-step-3.webp" style="background-color:white">
+<img src="assets/traversing/graph-bfs-step-4.webp" style="background-color:white">
+<img src="assets/traversing/graph-bfs-step-5.webp" style="background-color:white">
 
